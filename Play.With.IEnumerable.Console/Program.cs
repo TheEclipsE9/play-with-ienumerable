@@ -4,7 +4,8 @@ int enterCount = 0;
 
 Console.WriteLine("Hello, World!");
 
-IEnumerable<User> users = GetUsers();
+//IEnumerable<User> users = GetUsers();
+IEnumerable<User> users = GetUsers().ToList();
 
 foreach (var user in users)
 {
