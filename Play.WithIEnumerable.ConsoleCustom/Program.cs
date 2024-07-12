@@ -4,7 +4,8 @@ using static CSVReader;
 
 Console.WriteLine("Hello, World!");
 
-var reader = new CSVReader("../DataSource.csv");
+//var reader = new CSVReader("../DataSource.csv"); //created = 2
+var reader = new CSVReader("../DataSource.csv").ToList();//created = 1
 
 foreach (var line in reader)
 {
