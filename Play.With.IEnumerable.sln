@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.With.IEnumerable.Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.With.IEnumerable.ConsoleYield", "Play.With.IEnumerable.ConsoleYield\Play.With.IEnumerable.ConsoleYield.csproj", "{CE843B60-E7FD-4ECF-96A9-C17F3F5DEE87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.With.IEnumerable.ConsoleExecutionOrder", "Play.With.IEnumerable.ConsoleExecutionOrder\Play.With.IEnumerable.ConsoleExecutionOrder.csproj", "{62BBCC4C-C3CE-408E-B1D8-52A4297EE73C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CE843B60-E7FD-4ECF-96A9-C17F3F5DEE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE843B60-E7FD-4ECF-96A9-C17F3F5DEE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE843B60-E7FD-4ECF-96A9-C17F3F5DEE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BBCC4C-C3CE-408E-B1D8-52A4297EE73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BBCC4C-C3CE-408E-B1D8-52A4297EE73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BBCC4C-C3CE-408E-B1D8-52A4297EE73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BBCC4C-C3CE-408E-B1D8-52A4297EE73C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
